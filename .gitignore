@@ -1,16 +1,6 @@
-<<<<<<< HEAD
-.idea
-.mvn
-mvnw
-mvnw.cmd
-target
-/log
-*.iml
-=======
 dist/
 deploy_versions/
 .temp/
 .rn_temp/
 node_modules/
 .DS_Store
->>>>>>> init
