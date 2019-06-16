@@ -12,7 +12,7 @@ export default class Index extends Component {
   constructor() {
     super(...arguments)
     this.state = {
-      current: 0
+      current: 1
     }
   }
   handleClick(value) {
@@ -26,7 +26,9 @@ export default class Index extends Component {
 
   componentWillMount() { }
 
-  componentDidMount() { }
+  componentDidMount() {
+    
+   }
 
   componentWillUnmount() { }
 
@@ -36,7 +38,7 @@ export default class Index extends Component {
 
   render() {
     let status = null;
-
+    
     if (this.state.current == '0') {
       status = <Home />
     } else if (this.state.current == '1') {
